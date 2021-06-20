@@ -17,13 +17,13 @@ class SearchBar extends React.Component {
       <div className="search-bar ui segment">
         <form className="ui form" onSubmit={this.onFormSubmit}>
           <div className="field">
-            <label htmlFor="videoSearch">Video on Demand Search</label>
             <input
               type="text"
               name="videoSearch"
               id="videoSearch"
               value={this.state.userInput}
               onChange={this.onInputChange}
+              placeholder="Type to search video"
             />
             <br /> <br />
             <button>Click to Search</button>

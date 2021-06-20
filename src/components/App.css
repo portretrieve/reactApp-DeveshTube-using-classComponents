@@ -1,7 +1,7 @@
-body {
-    background-color: cadetblue;
-}
-
-button {
-    background-color: coral;
+h1 {
+    text-align: center;
+    color: rgb(240, 233, 235);
+    background-color: rgb(4, 4, 20);
+    padding: 15px;
+    text-shadow: darkgray 1px 1px 1px;
 }

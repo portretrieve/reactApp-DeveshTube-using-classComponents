@@ -1,7 +1,11 @@
-body {
-    background-color: beige;
+button {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 5px;
 }
 
-button {
-    background-color: aquamarine;
+.search-bar.ui.segment {
+    background-color: rgb(238, 230, 230);
 }
