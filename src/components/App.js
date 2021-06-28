@@ -30,7 +30,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="ui container">
-        <h1>Welcome to DeveshTube</h1>
+        <h1>Welcome to DeveshTube Website</h1>
         <SearchBar onSearch={this.onSearch} />
         <div className="ui grid">
           <div className="ui row">
